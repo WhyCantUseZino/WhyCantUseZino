@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- GIF 00 : 대표 플레이 (잠입 → 뒤에서 암살 → 시체 운반 → 드럼통 처리), 8~10초 -->
-<img src="docs/gif/00_hero.gif" width="720" alt="대표 플레이 장면"/>
+<img src="docs/gif/00_hero.gif" width="720" alt="밤 씬 시작 — 낮에 챙긴 열쇠로 문을 열고, 간수를 암살해 드럼통에 처리"/>
 
 # StealthActionGame_N
 
@@ -239,7 +238,7 @@ float speed = _speedOverride ?? baseSpeed;
 
 <br/>
 
-<img src="docs/gif/20_interaction.gif" width="480" alt="문 · 열쇠 · 문서 상호작용"/>
+<img src="docs/gif/20_interaction.gif" width="480" alt="문 열기 · 열쇠 획득"/>
 
 | 역할 | 담당 | 내용 |
 |---|---|---|
@@ -329,7 +328,7 @@ finally { SetControlEnabled(true); }
 
 ### CASE 1. 씬을 넘어가면 열쇠가 사라졌다
 
-<img src="docs/gif/60_key_persist.gif" width="480" alt="낮 씬 열쇠 → 밤 씬 사용"/>
+> 🎬 맨 위 대표 GIF의 첫 장면이 바로 이 결과입니다 — 밤 씬이 시작되자마자 낮에 챙긴 열쇠로 감옥방 문을 엽니다.
 
 | | 코드 | 설명 |
 |---|---|---|
